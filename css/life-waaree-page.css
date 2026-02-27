@@ -1,0 +1,115 @@
+
+
+/* work environment section start */
+.work__environment {
+    position: relative;
+    padding-bottom: min(max(40px, 3.6458vw), 4.375rem);
+}
+.work__environment .content__wrap p {
+    line-height: 1.75;
+}
+.work__environment .content__wrap p + p {
+    margin-top: min(1.25vw, 1.5rem);
+}
+.work__environment .section_header .heading {
+    margin-bottom: 0.625em;
+}
+
+@media only screen and (max-width: 991px) {
+    .work__environment .img__wrapper {
+        margin-top: 40px;
+    }
+    .work__environment .row {
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 767px) {
+    
+}
+/* work environment section end */
+
+/* hr initiate section start */
+.initiate__slider .swiper-slide {
+    width: min(max(360px, 18.75vw), 22.5rem);
+}
+/* hr initiate section end */
+
+/* meet the people section start */
+.people__slider {
+    padding: 100px 0;
+}
+.people__slider .swiper-slide {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    /* transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8); */
+}
+.people__slider .swiper-slide-active {
+    transform: scale(1.35);
+    -webkit-transform: scale(1.35);
+    -moz-transform: scale(1.35);
+    -ms-transform: scale(1.35);
+    -o-transform: scale(1.35);
+}
+.people__slider .single__item .img__wrap {
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* meet the people section end */
+
+
+/* why choose section start */
+.content__wrap_list ul {
+    flex-wrap: wrap;
+}
+/* why choose section end */
+
+
+/* employee benefit section start */
+.emp__item_wrapper {
+    display: block;
+    position: relative;
+}
+.emp_slider_wrapper {
+    position: relative;
+}
+.emp__slider_btn {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.emp__slider_btn li {
+    position: absolute;
+}
+.emp__slider_btn .prev-btn-emp {
+    left: 0;
+}
+.emp__slider_btn .next-btn-emp {
+    right: 0;
+}
+.emp__slider_btn li.swiper-button-disabled {
+    opacity: 0.25;
+    cursor: not-allowed;
+}
+.emp__slider_btn li.swiper-button-disabled a svg rect {
+    stroke: var(--theme-body-color);
+}
+.emp__slider_btn li.swiper-button-disabled a svg path {
+    fill: var(--theme-body-color);
+}
+/* employee benefit section end */

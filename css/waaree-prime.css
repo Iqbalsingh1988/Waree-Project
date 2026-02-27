@@ -1,0 +1,553 @@
+.prime__channel__section {
+    position: relative;
+    padding-top: min(max(80px, 7.8125vw), 9.375rem);
+    padding-bottom: min(max(80px, 7.8125vw), 9.375rem);
+}
+
+.prime__channel__section .content__wrap p {
+    max-width: 92%;
+}
+
+/* Download Waare Prime Section CSS Start */
+.download_waare_prime {
+    position: relative;
+    width: 100%;
+}
+
+.download_waare_prime .download_waare_prime_inr {
+    padding-top: min(max(10px, 1.82292vw), 2.1875rem);
+    border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    position: relative;
+    -webkit-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -moz-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -ms-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -o-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+}
+
+.download_waare_prime .download_waare_prime_inr::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    opacity: 0.7;
+    background: var(--theme-gradient);
+    z-index: 0;
+    -webkit-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -moz-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -ms-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -o-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+}
+
+.download_waaree_prime_row {
+    z-index: 1;
+    position: relative;
+}
+
+.social_media_btn_inr {
+    margin-top: min(max(30px, 3.125vw), 3.75rem);
+    ;
+}
+
+.download_waaree_prime_row .left_col {
+    width: 50%;
+}
+
+.download_waaree_prime_row .right_col {
+    width: 50%;
+}
+
+.download_waaree_prime_row .right_col .download_mobile_img {
+    width: min(max(300px, 31.25vw), 37.5rem);
+    margin-left: auto;
+}
+.download_waaree_prime_row .right_col .download_mobile_img img {
+    width: 100%;
+}
+.social_media_btn_inr .google_app_icon,
+.social_media_btn_inr  .app_store_icon {
+    width: min(max(150px, 14.32292vw), 17.1875rem);
+}
+.social_media_btn_inr .google_app_icon img,
+.social_media_btn_inr  .app_store_icon img {
+    width: 100% !important;
+}
+.download_waare_prime .btn-group {
+    margin-top: min(max(40px, 4.16667vw), 5rem);
+}
+/* Download Waare Prime Section CSS End */
+
+.how_work_section {
+    position: relative;
+    width: 100%;
+    padding-top: min(max(35px, 2.60417vw), 3.125rem);
+    padding-bottom: min(max(80px, 7.29167vw), 8.75rem);
+}
+
+.how_work_section .how_work_inner {
+    margin-top: min(max(30px, 3.125vw), 3.75rem);
+    position: relative;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    gap: min(max(20px, 2.08333vw), 2.5rem);
+}
+
+.how_work_section .how_work_inner .how_work_col {
+    width: min(max(150px, 20vw), 24rem);
+    height: min(max(150px, 20vw), 24rem);
+    position: relative;
+}
+
+.how_work_section .how_work_inner .how_work_col .outer_cirle {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0.83333vw;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.how_work_section .how_work_inner .how_work_col .inner_circle {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 1;
+    background: linear-gradient(270deg, rgba(13, 176, 43, 0.50) 0%, rgba(40, 169, 226, 0.50) 100%);
+    box-shadow: 0 14px 34px 0 rgba(0, 0, 0, 0.15);
+}
+
+.how_work_section .how_work_inner .how_work_col .inner_circle .step_heading {
+    color: var(--theme-body-color);
+    font-weight: 400;
+    position: relative;
+}
+
+.how_work_section .how_work_inner .how_work_col .inner_circle .content__wrap {
+    color: var(--theme-body-color);
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-top: min(max(25px, 2.60417vw), 3.125rem);
+    max-width: 80%;
+
+}
+
+.how_work_section .how_work_inner .how_work_col .inner_circle .step_heading::before {
+    content: "";
+    background: var(--theme-white);
+    width: min(max(25px, 1.875vw), 2.25rem);
+    height: 3px;
+    position: absolute;
+    bottom: -1.30208vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.how-it-work-slider .swiper-slide::before {
+  content: "";
+  position: absolute;
+  right: 100%;                /* same logic as your original (left of the slide) */
+  top: 50%;
+  transform: translateY(-50%);
+  width: min(max(20px, 2.1875vw), 2.625rem);
+  height: min(max(15px, 1.14583vw), 1.375rem);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* same SVG you used (kept encoded) */
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="47" height="24" viewBox="0 0 47 24" fill="none"><path d="M46.0607 13.0607C46.6464 12.4749 46.6464 11.5251 46.0607 10.9393L36.5147 1.3934C35.9289 0.807611 34.9792 0.807611 34.3934 1.3934C33.8076 1.97919 33.8076 2.92893 34.3934 3.51472L42.8787 12L34.3934 20.4853C33.8076 21.0711 33.8076 22.0208 34.3934 22.6066C34.9792 23.1924 35.9289 23.1924 36.5147 22.6066L46.0607 13.0607ZM0 12V13.5H45V12V10.5H0V12Z" fill="url(%23paint0_linear_7016_18425)"/><defs><linearGradient id="paint0_linear_7016_18425" x1="45" y1="12.5" x2="0" y2="12.5" gradientUnits="userSpaceOnUse"><stop stop-color="%230DB02B"/><stop offset="1" stop-color="%2328A9E2"/></linearGradient></defs></svg>');
+  z-index: 30;
+  pointer-events: none;
+}
+.how-it-work-slider .swiper-slide.no-arrow::before {
+  display: none;
+}
+.how-it-work-slider .swiper-slide {
+  position: relative;
+}
+.how_work_section .how_work_inner .how_work_col:first-child::before {
+    display: none;
+}
+.how-it-work-slider .swiper-wrapper {
+    overflow: visible;
+    padding-bottom: 60px;
+}
+.how-it-work-slider .swiper-slide {
+    overflow: visible;
+}
+
+.how_work_section .how-work-swipper-pagination {
+    /* position: static; */
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0%;
+    z-index: 5;
+}
+.how_work_section .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    /* opacity: 0.25; */
+    background: var(--theme-body-color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    /* transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none; */
+}
+.how_work_section .swiper-pagination-bullet-active {
+    background: var(--theme-primary);
+}
+.how_work_section .swiper-pagination-bullet.swiper-pagination-bullet-active-main {
+    opacity: 1;
+    background: var(--theme-primary);
+}
+
+
+/* Benefit Waaree section css start */
+.benefit_waaree_section {
+    position: relative;
+    width: 100%;
+    padding-bottom: min(max(45px, 4.6875vw), 5.625rem);
+    overflow: hidden;
+}
+
+.benefit_waaree_section .benefit_waaree_sec_inner {
+    width: 100%;
+    margin-top: min(max(55px, 5.46875vw), 6.5625rem);
+    position: relative;
+}
+
+.benefit_waaree_section .benefit_waaree_sec_inner .benefit_waaree_box {
+    border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    border: 1px solid var(--theme-body-color);
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -moz-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -ms-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+    -o-border-radius: min(max(10px, 1.04167vw), 1.25rem);
+}
+
+.benefit_waaree_section .benefit_waaree_sec_inner .benefit_waaree_box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #DFF2FA 0.31%, #DCF3E6 101.66%);
+    pointer-events: none;
+}
+
+
+.benefit_waaree_section .benefit_waaree_box .benefit_waaree_box_inr {
+    width: min(max(300px, 29.94792vw), 35.9375rem);
+    padding: min(max(20px, 1.875vw), 2.25rem) 0px min(max(30px, 3.125vw), 3.75rem) min(max(25px, 2.08333vw), 2.5rem);
+}
+
+.benefit_waaree_section .benefit_waaree_box_inr .benefit_waaree_outer_circle {
+    border: 1px solid rgb(91, 91, 91, 0.5);
+    border-radius: 100%;
+    padding: 12px;
+    width: min(max(80px, 5.625vw), 6.75rem);
+    height: min(max(80px, 5.625vw), 6.75rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit_waaree_section .benefit_waaree_outer_circle .benefit_waaree_inner_circle {
+    background: var(--theme-white);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0.78125vw;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.benefit_waaree_section .benefit_waaree_box .waaree_benefit_right_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: min(max(250px, 26.66667vw), 32rem);
+}
+
+.benefit_waaree_section .benefit_waaree_box .waaree_benefit_right_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.benefit_waaree_section .benefit_waaree_box_inr .benefit_waaree_content {
+    margin-top: min(max(35px, 3.38542vw), 4.0625rem);
+}
+
+.waaree_benefit__slider_btn li {
+    position: absolute;
+    top: 42%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.waaree_benefit__slider_btn li.prev-btn-waaree_benefit {
+    left: -6.77083vw;
+}
+
+.waaree_benefit__slider_btn li.next-btn-waaree_benefit {
+    right: -6.77083vw;
+}
+
+.waaree_benefit__slider_btn {
+    width: 100%;
+}
+
+.waaree_benefit__slider_btn li a {
+    width: min(max(45px, 4.53125vw), 5.4375rem);
+    height: min(max(45px, 4.53125vw), 5.4375rem);
+}
+
+/* .benefit_waaree_section .btn-group {
+    margin-top: min(max(40px, 4.16667vw), 5rem);
+} */
+
+.benefit_waaree_box_inr,
+.waaree_benefit_right_img {
+    position: relative;
+    z-index: 3;
+}
+
+.benefit_waaree_section .benefit_waaree_content .fs-36 {
+    color: var(--theme-body-color);
+    font-weight: 300;
+    padding-bottom: min(max(10px, 1.04167vw), 1.25rem);
+}
+
+.benefit_waaree_section .benefit_waaree_content .content__wrap {
+    color: var(--theme-body-color);
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+
+.benefit_waaree_sec_slider .swiper-wrapper {
+    overflow: visible;
+    position: relative;
+}
+
+.benefit_waaree_sec_slider .swiper-slide {
+    transition: all 1s ease-in-out;
+}
+
+.benefit_waaree_sec_slider {
+    aspect-ratio: auto;
+    height: 26.04167vw;
+    margin: auto;
+}
+
+.benefit_waaree_sec_slider .swiper-slide {
+    overflow: hidden;
+}
+
+.benefit_waaree_sec_slider .swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Default slide - no background overlay */
+.benefit_waaree_section .benefit_waaree_sec_inner .benefit_waaree_box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.benefit_waaree_sec_slider .swiper-slide-active .benefit_waaree_box::after {
+    background: linear-gradient(90deg, #DFF2FA 0.31%, #DCF3E6 101.66%);
+    opacity: 1;
+}
+
+.benefit_waaree_sec_slider .swiper-slide {
+    z-index: 1;
+}
+
+.benefit_waaree_section .swiper-button-disabled {
+    opacity: 0.25;
+    cursor: not-allowed;
+}
+
+.benefit_waaree_sec_slider .swiper-slide .benefit_waaree_outer_circle {
+    opacity: 0;
+}
+
+.benefit_waaree_sec_slider .swiper-slide.swiper-slide-active .benefit_waaree_outer_circle {
+    opacity: 1;
+}
+
+/* Benefit Waaree section css start */
+
+
+/* Responsive css start  */
+
+
+@media (max-width: 1199px) {
+.benefit_waaree_section {
+    padding-top: min(max(20px, 1.5625vw), 1.875rem);
+}
+.benefit_waaree_section .benefit_waaree_sec_inner {
+    margin-top: min(max(55px, 8.46875vw), 6.5625rem);
+}
+.waaree_benefit__slider_btn li.next-btn-waaree_benefit {
+    right: -8.77083vw;
+}
+.waaree_benefit__slider_btn li.prev-btn-waaree_benefit {
+    left: -8.77083vw;
+}
+.benefit_waaree_sec_slider {
+    height: 35vw;
+}
+.how-it-work-slider .swiper-slide::before {
+        width: min(max(20px, 3.8vw), 2.625rem);
+    height: min(max(15px, 1.8vw), 1.375rem);
+}
+.download_waare_prime .download_waare_prime_inr {
+    padding-top: 4.5vw;
+}
+.social_media_btn_inr {
+    margin-bottom: 2vw;
+}
+}
+@media (max-width: 991px) {   
+.benefit_waaree_section .benefit_waaree_sec_inner {
+        margin-top: min(max(55px, 10.46875vw), 6.5625rem);
+    }
+    .benefit_waaree_sec_slider {
+        height: 350px;
+    }
+.benefit_waaree_section .benefit_waaree_box .benefit_waaree_box_inr {
+    width: min(max(400px, 29.94792vw), 35.9375rem);
+}
+.benefit_waaree_section .benefit_waaree_box .waaree_benefit_right_img {
+    width: min(max(320px, 26.66667vw), 32rem);
+}
+.benefit_waaree_section .benefit_waaree_outer_circle .benefit_waaree_inner_circle {
+    padding: 10px;
+}
+.benefit_waaree_section .benefit_waaree_content .content__wrap {
+        font-size: 16px;
+}
+.how_work_section .how_work_inner .how_work_col {
+    height: min(max(150px, 43vw), 24rem);
+}
+.how_work_section .how_work_inner .how_work_col .outer_cirle {
+    padding: 18px;
+}
+.how_work_section .how_work_inner .how_work_col .inner_circle .step_heading {
+    font-size: 24px;
+}
+.how_work_section .how_work_inner .how_work_col .inner_circle .content__wrap {
+    font-size: 24px;
+}
+.how_work_section .how_work_inner .how_work_col .inner_circle .step_heading::before {
+    width: min(max(42px, 1.875vw), 2.25rem);
+    height: 5px;
+    bottom: -1.6vw;
+}
+.how_work_section .how_work_inner .how_work_col .outer_cirle {
+    width: 350px;
+    height: 350px;
+}
+    .how-it-work-slider .swiper-slide::before {
+        width: 40px;
+        height: 18px;
+    }
+}
+@media (max-width: 767px) {   
+.download_waaree_prime_row {
+    z-index: 1;
+    position: relative;
+    flex-wrap: wrap;
+}
+.download_waaree_prime_row .left_col {
+    width: 100%;
+}
+.download_waaree_prime_row .right_col {
+    width: 100%;
+    margin-top: 25px;
+}
+    .download_waare_prime .download_waare_prime_inr {
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+.how_work_section .how_work_inner .how_work_col {
+        height: auto;
+    }
+.how-it-work-slider .swiper-slide::before {
+    display: none;
+}
+.waaree_benefit__slider_btn li.prev-btn-waaree_benefit {
+        left: 35%;
+        top: inherit;
+    }
+        .waaree_benefit__slider_btn li.next-btn-waaree_benefit {
+        right: 35%;
+        top: inherit;
+    }
+.waaree_benefit__slider_btn {
+    width: 100%;
+    margin-top: 10px;
+}
+    .benefit_waaree_section .benefit_waaree_sec_inner {
+        margin-bottom: 60px;
+        margin-top: 75px;
+    }
+        .how_work_section .how_work_inner .how_work_col .outer_cirle {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+.how_work_section .how_work_inner .how_work_col .inner_circle .content__wrap {
+        margin-top: 35px;
+    }
+        .how_work_section .how_work_inner .how_work_col .inner_circle .step_heading::before {
+        width: min(max(42px, 1.875vw), 2.25rem);
+        height: 4px;
+        bottom: -3.6vw;
+    }
+}
+/* Responsive css end */

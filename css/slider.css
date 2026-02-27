@@ -1,0 +1,40 @@
+  .spit_lab_slider .lab_spit_box {
+    width: 100% !important;
+}
+ .spit_lab_slider{
+  padding-bottom: 20px;
+ }
+ .spit_lab_slider .fs_regular_slider .lab_spit_box {
+    margin-bottom: 16px;
+}
+.spit_lab_slider .owl-dots {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -55px;
+    display: block !important;
+}
+.spit_lab_slider .owl-dots button span {
+    width: 15px !important;
+    height: 15px !important;
+    background: var(--theme-black-color) !important;
+}
+.spit_lab_slider button.active span{
+    background: var(--theme-dark-blue) !important;
+}
+.spit_lab_slider .owl-dots {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -30px;
+    display: block !important;
+    z-index: 9999;
+}
+@media (max-width: 768px) {
+    .fs_regular .item {
+    width: 100%;
+}
+.fs_regular_slider .item{
+    width: auto;
+}
+}

@@ -1,0 +1,406 @@
+/* counter css start */
+
+
+
+.awards__counter.csr__counter .counter__list .fs-72 {
+    font-size: 2.55vw;
+}
+
+@media only screen and (max-width: 1199px) {
+    .awards__counter.csr__counter .counter__list .fs-72 {
+        font-size: 2.5rem;
+    }
+}
+
+/* counter css end */
+
+
+/* Our Vision css start */
+
+.csr_our_vision_sec .epc_wrapper .single__item .img__wrap::before {
+    display: none;
+}
+
+.csr_our_vision_sec .epc_wrapper .single__item .img__wrap img {
+    width: 100%;
+}
+.csr_our_vision_sec .epc_wrapper .legacy__block {
+    width: 100%;
+}
+.csr_our_vision_sec .list_item .heading {
+    font-weight: 300;
+}
+
+.csr_our_vision_sec {
+    padding-bottom: 0;
+}
+
+.csr_our_vision_sec .epc_left_col .content__wrap {
+    max-width: 90%;
+}
+
+.csr_our_vision_sec .section_header {
+    margin-bottom: 0;
+}
+
+.csr_our_vision_sec .tab_circle_1 {
+    right: -9%;
+    top: 50%;
+    left: inherit;
+}
+
+.csr_our_vision_sec .swiper-slide:last-child .circle__wrapper{
+  display: none;
+}
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .team__section.csr_our_vision_sec .item__tab_wrapper::after {
+        bottom: 47%;
+    }
+
+.csr_our_vision_sec .tab_circle_1 {
+    top: 50%;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+    .csr_our_vision_sec .legacy__block {
+        margin-bottom: 0;
+    }
+
+    .csr_our_vision_sec .epc_left_col .content__wrap {
+        max-width: 100%;
+    }
+
+    .team__section.csr_our_vision_sec .item__tab_wrapper::after {
+        bottom: 4%;
+    }
+
+    .csr_our_vision_sec .category__slider_btn .prev-btn-category {
+        left: 0%;
+    }
+
+    .csr_our_vision_sec .category__slider_btn .next-btn-category {
+        right: 0%;
+    }
+}
+
+/* Our Vision css end */
+
+
+/* CSR photo gallery css start */
+.foundation_sustain_section.csr_photo_gallery_sec {
+    padding: 0px;
+    margin-top: 9.375vw;
+}
+.foundation_sustain_section.csr_photo_gallery_sec .foundation-bg {
+    position: absolute;
+    bottom: 4%;
+    z-index: -1;
+}
+.foundation_sustain_section.csr_photo_gallery_sec .foundation-bg {
+    width: 100%;
+    max-width: 69.688vw;
+}
+.foundation_sustain_section.csr_photo_gallery_sec .foundation-bg img {
+    width: 100%;
+}
+.csr_photo_gallery_sec .foundation_gallery .img_design {
+    position: relative;
+}
+.csr_photo_gallery_sec .foundation_gallery .img_design::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7.396vw;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+}
+/* CSR photo gallery css end */
+
+
+/* Our CSR Policies css start */
+
+
+/* 
+.our__value_section.csr__policies_sec {
+    padding-top: 10.604vw;
+    padding-bottom: 6.604vw;
+}
+.our__value_section.csr__policies_sec .esg_policies_box {
+    width: 13.906vw;
+    min-height: 6.563vw;
+    line-height: 1.042vw;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.15);
+    padding: 0.833vw 1.042vw 1.042vw 1.094vw;
+    align-items: center;
+    justify-content: center;
+    background: var(--Linear, linear-gradient(270deg, #0DB02B 0%, #28A9E2 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.our__value_section.csr__policies_sec .esg_policies_btn {
+    margin-top: -0.833vw;
+}
+.our__value_section.csr__policies_sec .esg_policies_wrapper {
+    column-gap: 0.833vw;
+}
+.our__value_section.csr__policies_sec .value__block {
+    margin-right: 24%;
+} */
+
+
+/* Our CSR Policies css end */
+
+
+/* CSR about us css start */
+.who__we_are_section.csr_about_us_sec {
+    padding-top: 5.208vw;
+}
+.who__we_are_section.csr_about_us_sec .btn-group {
+    margin-top: 1.563vw;
+}
+/* CSR about us css end */
+
+
+/* Our Reach css start */
+.our_reach_sec .section_header .heading {
+    margin-bottom: 0.625em;
+}
+.our_reach_sec .value__block {
+    margin-right: 25%;
+}
+.our_reach_list_col {
+    justify-content: space-between;
+    position: relative;
+}
+.our_reach_list_col::before {
+    content: "";
+    position: absolute;
+    bottom: -2.344vw;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    opacity: 0.5;
+    background: #0DB02B;
+}
+.our_reach_list_col:last-child::before {
+    display: none;
+}
+.our_reach_list {
+    width: 21.25vw;
+    flex-direction: column;
+    gap: 4.688vw;
+    padding-top: 3.854vw;
+}
+.our-reach-arrow-icon {
+    width: 2.865vw;
+    height: 2.865vw;
+    border-radius: 50%;
+    background: #5B5B5B40;
+    align-items: center;
+    padding: 0.833vw;
+}
+.our_reach_list_col.active {
+    display: flex;
+}
+.our_reach_list_col.active {
+    display: flex;
+}
+.our_reach_list_col.active .our-reach-arrow-icon {
+    background: #0DB02B;
+    font-weight: 500;
+}
+.our_reach_list_col.active .fs-36 {
+    background: var(--Linear, linear-gradient(270deg, #0DB02B 0%, #28A9E2 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.our_reach_list_map{
+    width: 100%;
+}
+
+.our_reach_sec {
+    padding-top: 40px;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .our_reach_list {
+        width: 100%;
+    }
+
+    .our_reach_sec .value__block {
+       margin-right: 5%;
+    }
+
+    .our_reach_list_map {
+        padding-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .our_reach_list_map {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    .our-reach-arrow-icon {
+        width: 4.865vw;
+        height: 4.865vw;
+        padding: 1.533vw;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .our-reach-arrow-icon {
+        width: 8.865vw;
+        height: 8.865vw;
+        padding: 2.833vw;
+    }
+
+    .our_reach_list {
+        gap: 7.688vw;
+        padding-top: 5.854vw;
+    }
+
+    .our_reach_list_col::before {
+       bottom: -3.844vw;
+    }
+
+
+}
+
+/* Our Reach css end */
+
+
+/* Resources css start */
+.resource__section.csr_resources_sec {
+    padding-top: 2.865vw;
+    padding-bottom: 5.125vw;
+}
+.resource__section.csr_resources_sec .item__wrap .single__item .top__block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: min(max(20px, 1.5625vw), 1.875rem);
+    row-gap: 10px;
+    margin-bottom: 1.042vw;
+}
+
+/* Resources css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start csr polices slider */
+
+
+
+  .csr__policies_sec .esg_policies_box {
+    width: 100%;
+    line-height: 26px;
+    font-size: 20px;
+    padding: 0 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    min-height: fit-content;
+}
+
+   .csr__policies_sec .esg_policies_box p{
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.5;
+        max-height: calc(1.5em * 2);
+   }
+
+    .csr__policies_sec .policies_csr_slider{
+       padding: 20px;
+    }
+
+    .csr__policies_sec .esg_policies_col {
+        display: -webkit-box;  
+        display: -ms-flexbox;    
+        display: -webkit-flex;     
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.csr__policies_sec .policies_csr_slider_btn {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+
+.csr__policies_sec {
+    padding: min(max(70px, 12.2083vw), 11.25rem) 0 min(max(40px, 3.6458vw), 4.375rem);
+}
+
+@media only screen and (max-width: 767px) {
+
+    .csr__policies_sec .esg_policies_box {
+        padding-bottom: 30px;
+    }
+
+}
+
+/* start csr polices slider */
+
+
+
+
+
+
+/* start meet iur community */
+
+.meet_committee_sec.team__section {
+    padding: min(10.6042vw, 11.125rem) 0 min(0px, 0px);
+}
+
+
+/* end meet iur community */

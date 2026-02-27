@@ -1,0 +1,559 @@
+
+
+.active{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+
+
+.intester_main{
+    width: 100%;
+    padding-top: min(max(50px, 5.625rem), 90px);
+}
+
+
+
+.tabbing_up_invester ul{
+    flex-wrap: wrap;
+    row-gap: 18px;
+    column-gap: 15px;
+}
+
+.tabbing_up_invester ul li{
+    display: inline-block;
+}
+
+.tabbing_up_invester a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: min(max(16px, 1.302vw), 25px);
+    padding-right: min(max(16px, 1.302vw), 25px);
+    padding-top: min(max(10px, 0.833vw), 16px);
+    padding-bottom: min(max(10px, 0.833vw), 16px);
+    text-align: center;
+    color: var(--theme-body-color);
+    background: #0DB02B10;
+    height: 100%;
+    border-radius: 10px;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+
+.tabbing_up_invester a.activelink{
+    background: var(--theme-gradient);
+    color: var(--theme-white);
+}
+
+.investor_slider_wrap{
+    overflow: hidden;
+}
+.invester_slider_btn{
+    display: none;
+}
+
+.all_tab_title{
+    padding: 40px;
+}
+
+
+.all_tab_title .section_header{
+    padding-bottom: min(max(14px, 1.042vw), 20px);
+}
+
+
+.governance_table_tabing .item__tab .heading{
+    padding-left: 0;
+    padding-right: 0;
+    padding: 1.042vw 15px;
+    line-height: 1.354vw; 
+    min-height: 4.992vw;
+}
+
+.governance_table_tabing .circle__wrapper {
+    width: 30px;
+    height: 30px;
+}
+
+.governance_table_tabing .container_padd{
+    padding-right: 0;
+}
+
+.governance_table_tabing .tab_circle_1 {
+    left: 22.5%;
+    top: 82%;
+}
+
+.governance_table_tabing .tab_circle_2 {
+    left: 37%;
+    top: 82%;
+}
+
+.governance_table_tabing .tab_circle_3 {
+    left: 52%;
+    top: 82%;
+}
+
+.governance_table_tabing .tab_circle_4 {
+    right: 30%;
+    top: 82%;
+}
+
+.governance_table_tabing .tab_circle_5 {
+    right: 12%;
+    top: 82%;
+}
+
+.table_quarterly_corporate {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.table_quarterly_corporate table{
+    width: 100%;
+}
+
+.table_quarterly_corporate table th{
+    background: var(--theme-primary);
+    color: var(--theme-white);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid var(--theme-white);
+}
+
+.table_quarterly_corporate table th:first-child{
+    border-left: 1px solid var(--theme-white);
+    width: 16%;
+}
+
+.table_quarterly_corporate table td, .table_quarterly_corporate table th{
+    width: 28%;
+    padding-top: min(max(10px, 0.833vw), 16px);
+    padding-bottom: min(max(10px, 0.833vw), 16px);
+    text-align: center;
+    
+}
+
+.table_quarterly_corporate table td{
+  border-right: 1px solid var(--theme-primary);
+  border-bottom: 1px solid var(--theme-primary);
+}
+
+.table_quarterly_corporate table td:first-child{
+    border-left: 1px solid var(--theme-primary);
+    width: 16%;
+}
+
+
+.table_quarterly_corporate table td .pdf_icon_inner{
+    column-gap: 10px;
+}
+
+.table_quarterly_corporate table td .pdf_icon{
+    width: min(max(25px, 2.5vw), 48px);
+}
+
+.table_quarterly_corporate table td .pdf_icon img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.ipo_document_tab .item__tab .heading {
+    font-weight: 400;
+}
+
+.ipo_document_tab .item__tab.active .heading {
+    font-weight: 600;
+}
+
+
+.ipo_document_tab .item__tablist {
+    justify-content: center;
+    /* column-gap: 10.417vw; */
+    column-gap: min(max(100px, 8.333vw), 160px);
+}
+
+.ipo_document_tab .circle__wrapper {
+    width: 30px;
+    height: 30px;
+}
+
+.ipo_document_tab .tab_circle_1 {
+    left: 50%;
+    top: 68%;
+}
+
+.ipo_document_inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: min(max(40px, 4.583vw), 88px);
+    row-gap: min(max(30px, 2.604vw), 50px);
+}
+
+.ipo_document_left {
+    border-radius: 20px;
+    background: #FFF;
+    padding: 14px;
+    padding-bottom: 40px;
+}
+
+
+.ipo_document_cantent {
+    border-radius: 20px;
+    background: linear-gradient(270deg, rgba(13, 176, 43, 0.10) 0%, rgba(40, 169, 226, 0.10) 100%);
+    padding-left: min(max(30px, 3.646vw), 70px);
+    padding-right: min(max(30px, 3.646vw), 70px);
+    padding-top: min(max(25px, 1.667vw), 32px);
+    padding-bottom: min(max(40px, 2.917vw), 56px);
+    text-align: center;
+    height: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.ipo_btn {
+    margin-top: -25px;
+}
+
+.ipo_document_left:hover{
+  background: var(--theme-primary);
+  transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.ipo_document_left:hover .ipo_document_cantent{
+    background-color: var(--theme-white);
+    font-weight: 600;
+}
+
+.ipo_document_left:hover .primary_btn::before {
+    opacity: 1;
+}
+
+
+
+.committee_tab_main .faq__tab_data {
+    display: block;
+    opacity: 1;
+    margin-top: 0;
+}
+
+
+.committee_tab_main .faq__tab_data .single_faq + .single_faq {
+    margin-top: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid rgba(91, 91, 91, 0.50);
+}
+
+
+
+.committee_tab_main .faq__tab_data .single_faq.active{
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(91, 91, 91, 0.50);
+    padding-bottom: min(max(15px, 1.563vw), 30px);
+}
+
+.committee_tab_main .faq__tab_data .faq_content__wrap{
+    padding: 0;
+}
+
+.committee_tab_main .faq__tab_data .single_faq.active .faq_title{
+    padding-left: 0;
+   
+}
+
+.committee_tab_main .faq__tab_data .single_faq.active .faq_title span{
+    background: linear-gradient(270deg, #0DB02B 0%, #28A9E2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.committee_tab_main .faq__tab_data .single_faq .faq_title {
+    padding: 
+    min(max(15px, 1.563vw), 30px) 
+    min(max(60px, 5.7292vw), 6.875rem) 
+    min(max(15px, 1.563vw), 30px) 
+    min(max(15px, 2.0833vw), 2.5rem); 
+    background: none;
+    border-radius: 0px;
+    padding-left: 0;
+}
+
+.committee_tab_main .single_faq {
+    margin-top: 0;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid rgba(91, 91, 91, 0.50);
+}
+
+
+.committee_acordian{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: min(max(40px, 3.594vw), 69px);
+    row-gap: min(max(20px, 2.083vw), 40px);
+}
+
+.committee_title{
+    padding-bottom: 5px;
+}
+
+.committee_title_slogan{
+    padding-bottom: 2px;
+}
+
+
+
+/* start newsletter section */
+
+.sing_up_newsletter{
+    width: 100%;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.sing_up_newsletter_title{
+    width: 100%;
+}
+
+
+.sing_up_newsletter_inner {
+    column-gap: min(max(20px, 1.563vw), 30px);
+    width: 30vw;
+}
+
+.newsletter_input{
+    width: 75%;
+}
+
+.newsletter_input input{
+    width: 100%;
+}
+
+
+
+/* end newsletter section */
+
+
+
+/* start media */
+
+@media only screen and (max-width: 1199px) {
+
+    .governance_table_tabing .tab_circle_4{
+        display: none;
+    }
+
+    .governance_table_tabing .tab_circle_5{
+        display: none;
+    }
+
+    .governance_table_tabing .tab_circle_3{
+        display: none;
+    }
+
+    .governance_table_tabing .item__tab .heading {
+        padding: 1.442vw 25px;
+    }
+
+    .governance_table_tabing .tab_circle_1 {
+        left: 35.5%;
+        top: 78%;
+    }
+
+    .governance_table_tabing .tab_circle_2 {
+        left: 67%;
+        top: 78%;
+    }
+
+    .sing_up_newsletter_inner {
+      width: 40vw;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .faq__tab_data .single_faq .faq_title::after {
+        top: 20px;
+    }
+
+    .team__section {
+        padding: min(3.6042vw, 3.125rem) 0 min(6.125vw, 3.75rem);
+    }
+
+    .ipo_document_inner {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .table_quarterly_corporate {
+      padding-top: 0;
+    }
+
+    .governance_table_tabing .tab_circle_1{
+        display: none;
+    }
+
+    .category__slider_btn {
+        position: relative;
+        display: -webkit-box;  
+        display: -ms-flexbox;    
+        display: -webkit-flex;     
+        display: flex;
+        width: 96%;
+        justify-content: space-between;
+        z-index: 1;
+        top: -16px;
+    }
+
+    .governance_table_tabing .item__tab .heading {
+        padding: 1.442vw 15px;
+        line-height: 20px;
+    }
+
+    .team__section .item__tab_wrapper::after {
+        bottom: 55%;
+    }
+
+    .sing_up_newsletter_inner {
+        width: 60vw;
+    }
+
+    .team__section.ipo_document_tab .item__tab_wrapper::after {
+        bottom: 3%;
+    }
+
+    .committee_tab_main .faq__tab_data .single_faq .faq_title {
+     padding: min(max(20px, 1.563vw), 30px) min(max(60px, 5.7292vw), 6.875rem) min(max(20px, 1.563vw), 30px) min(max(15px, 2.0833vw), 2.5rem);
+    padding-left: 0;
+   }
+
+    .invester_slider_btn {
+        display: -webkit-box;  
+        display: -ms-flexbox;    
+        display: -webkit-flex;     
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .tabbing_up_invester a {
+        background: #0DB02B30;
+        min-height: 60px;
+    }
+
+    .invester_slider_btn {
+        padding-top: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.tabbing_up_invester ul li a {
+    padding-left: min(max(10px, 1.302vw), 25px);
+    padding-right: min(max(10px, 1.302vw), 25px);
+}
+
+.tabbing_up_invester ul {
+    row-gap: 8px;
+    column-gap: 10px;
+}
+
+.all_tab_title {
+    padding: 40px 0px;
+}
+
+    .table_quarterly_corporate {
+        padding-top: 20px;
+    }
+
+    .team__section .item__tab_wrapper::after {
+        bottom: 4%;
+    }
+
+    .ipo_document_tab .item__tablist {
+       column-gap: min(max(30px, 8.333vw), 160px);
+    }
+
+    .ipo_document_inner {
+        grid-template-columns: inherit;
+        row-gap: min(max(15px, 2.604vw), 50px);
+    }
+
+    .sing_up_newsletter_inner {
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+    .newsletter_input {
+        width: 95%;
+    }
+
+    .ipo_document_tab .item__tablist {
+        column-gap: min(max(15px, 4.333vw), 160px);
+    }
+
+    .table_quarterly_corporate table {
+        width: 100%;
+    }
+
+    .table_quarterly_corporate {
+        width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+.table_quarterly_corporate table td, .table_quarterly_corporate table th {
+    padding: 12px 30px;
+}
+
+.committee_acordian {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: inherit;
+}
+
+
+
+}
+
+@media only screen and (max-width: 360px) {
+    .category__slider_btn.category_new .prev-btn-category {
+        left: 0%;
+    }
+    .category__slider_btn.category_new .next-btn-category {
+        right: 0%;
+    }
+}
+
+
+
+
+
+
+/* end media */

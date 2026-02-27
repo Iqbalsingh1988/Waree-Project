@@ -1,0 +1,566 @@
+
+/* solution section start */
+.solution__page_section {
+    position: relative;
+    padding-bottom: 0;
+}
+.solution__page_section .circle {
+    border-width: 1px;
+}
+.solution__page_section .circle.lg__circle {
+    top: -158%;
+}
+.solution__page_section .circle.sm__circle {
+    top: -107%;
+}
+.solution__page_section .section_header .heading {
+    /* margin-bottom: 0.347em; */
+}
+.solution__page_section .section_overlay {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 470%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 45.06%);
+}
+/* solution section end */
+
+/* epc award section start */
+.epc-award .btn-group {
+    margin-top: min(max(30px, 4.1667vw), 5rem);
+}
+/* epc award section end */
+
+/* epc solar section start */
+.epc_solar_section .team__slider_wrap {
+    margin-top: min(1.5625vw, 1.875rem);
+}
+.epc_solar_section .category__slider .swiper-slide.swiper-slide-active .list_item {
+    text-align: left;
+    margin-right: 0;
+}
+.epc_solar_section .category__slider .swiper-slide.swiper-slide-next .list_item {
+    margin-right: 12%;
+}
+.epc_solar_section .category__slider .swiper-slide .list_item {
+    margin-right: 10%;
+}
+.epc_solar_section .circle__wrapper {
+    top: 58%;
+}
+.feature__block .heading {
+    margin-bottom: 1.3em;
+}
+.feature__block ul li {
+    position: relative;
+    margin-bottom: min(max(15px, 1.1458vw), 1.375rem);
+    padding-left: min(max(30px, 2.2917vw), 2.75rem);
+}
+.feature__block ul li::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: min(max(20px, 1.4583vw), 1.75rem);
+    height: min(max(20px, 1.4583vw), 1.75rem);
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="14" fill="url(%23paint0_linear_2640_4609)"/><path d="M6 14.5L10.5 19.5L21 9" stroke="white" stroke-width="2" stroke-linecap="round"/><defs><linearGradient id="paint0_linear_2640_4609" x1="28" y1="14" x2="0" y2="14" gradientUnits="userSpaceOnUse"><stop stop-color="%230DB02B"/><stop offset="1" stop-color="%2328A9E2"/></linearGradient></defs></svg>');
+    background-size: contain;
+}
+.feature__block .btn-group {
+    margin-top: min(max(20px, 3.125vw), 3.75rem);
+}
+.epc_wrapper {
+    position: relative;
+    z-index: 0;
+}
+.epc_wrapper::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--theme-white);
+    left: -100%;
+    z-index: 2;
+}
+.epc_left_col {
+    position: relative;
+    z-index: 1;
+}
+.epc_left_col .content__wrap {
+    max-width: 550px;
+}
+.epc_wrapper .epc__slider {
+    overflow: visible;
+}
+.epc_wrapper .epc__slider .swiper-slide {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+}
+.epc_wrapper .epc__slider .swiper-slide-next {
+    opacity: 0.4;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+}
+
+.epc_wrapper .single__item {
+    position: relative;
+}
+.epc_wrapper .single__item .img__wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.epc_wrapper .single__item .img__wrap img {
+    width: 100%;
+}
+.epc_wrapper .single__item .img__wrap::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 28.45%, #000 75.93%);
+    height: 100%;
+}
+.epc_wrapper .single__item .content__area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 min(max(30px, 4.6875vw), 5.625rem) min(max(20px, 2.0833vw), 2.5rem) min(max(30px, 3.8646vw), 4.4375rem);
+}
+.epc_wrapper .single__item .heading {
+    margin-bottom: 0.571em;
+}
+.epc_wrapper .single__item .content__wrap {
+    line-height: 1.75;
+}
+.epc_wrapper .epc__slider_btn {
+    margin-top: 20px;
+    column-gap: 16px;
+}
+.epc_wrapper .epc__slider_btn .swiper-button-disabled {
+    opacity: 0.25;
+    cursor: not-allowed;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.epc_wrapper .epc__slider_btn .swiper-button-disabled svg rect {
+    stroke: var(--theme-body-color);
+}
+.epc_wrapper .epc__slider_btn .swiper-button-disabled svg path {
+    fill: var(--theme-body-color);
+}
+.epc__slider_btn li a {
+    width: min(max(40px, 3.3854vw), 4.0625rem);
+    height: min(max(40px, 3.3854vw), 4.0625rem);
+}
+
+@media only screen and (max-width: 1500px) {
+    .epc_wrapper .single__item .img__wrap::before {
+        height: 140%;
+        top: -30%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .epc_solar_section .circle__wrapper {
+        top: 55%;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .epc_solar_section .circle__wrapper {
+        top: 52%;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .epc_wrapper .single__item .img__wrap {
+        height: 440px;
+    }
+    .epc_wrapper .single__item .img__wrap::before {
+        height: 160%;
+        top: -50%;
+    }
+     .epc_solar_section .item__tablist .item__tab .heading {
+        padding: 0;
+    }
+    .epc_solar_section .circle__wrapper {
+        top: 42%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .epc_wrapper .single__item .img__wrap {
+        height: 480px;
+    }
+    .epc_wrapper .single__item .img__wrap::before {
+        height: 180%;
+        top: -70%;
+    }
+    .epc_wrapper .epc__slider {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .epc_solar_section .team__slider_wrap {
+        margin-top: 0;
+    }
+    .epc_solar_section .category__slider .swiper-slide.swiper-slide-active .list_item {
+        text-align: center;
+    }
+    .epc_left_col {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .epc_wrapper .single__item .img__wrap {
+        height: auto;
+    }
+    .epc_wrapper .single__item .img__wrap::before {
+        opacity: 0.5;
+    }
+    .epc_wrapper .single__item .content__area {
+        position: relative;
+        padding: 20px ;
+    }
+    .epc_wrapper .single__item .content__wrap {
+        color: var(--theme-body-color);
+    }
+    .epc_wrapper .epc__slider .swiper-slide-next {
+        filter: none;
+        -webkit-filter: none;
+        opacity: 1;
+    }
+    .epc_wrapper .epc__slider .swiper-slide {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .epc_wrapper .single__item {
+        border: 1px solid #d7d7d7;
+        box-shadow: 2px 5px 10px rgba(0,0,0,0.15);
+        margin-bottom: 20px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .epc_wrapper .single__item .img__wrap {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+}
+
+/* epc solar section end */
+
+/* faq section start */
+.faq_section {
+    position: relative;
+    padding: min(max(40px, 5.7292vw), 6.875rem) 0 0;
+}
+.faq_section .section_header .heading {
+    margin-bottom: 0.625em;
+}
+.faq_section .faqtab__slider {
+    margin-top: 30px;
+    margin-bottom: min(max(30px, 2.6042vw), 3.125rem);
+}
+.faq_section .faq__tab .tab_ul {
+    column-gap: 16px;
+}
+.faq_section .faq__tab {
+    width: 100%;
+    line-height: 1.2;
+    padding: 13px min(max(20px, 2.0833vw), 2.5rem);
+    text-align: center;
+    border: 2px solid var(--theme-body-color);
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    background: var(--theme-white);
+}
+.faq_section .faq__tab.active {
+    padding: 13px min(max(20px, 2.0833vw), 2.5rem);
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+    background: linear-gradient(white, white) padding-box,
+             linear-gradient(270deg, #0DB02B 0%, #28A9E2 100%) border-box;
+}
+.faq_section .faq__tab.active span {
+    background: linear-gradient(270deg, #0DB02B 0%, #28A9E2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.faq_section .top__row .section_header .content__wrap {
+    max-width: 870px;
+    width: min(max(100%, 45.3125vw), 54.375rem);
+}
+
+.faq__tab_data {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+}
+.faq__tab_data.tab-active {
+    display: block;
+    opacity: 1;
+}
+
+.single_faq {
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+    background: var(--theme-white);
+    border: 1px solid rgba(13, 176, 43, 0.25);
+    overflow: hidden;
+    position: relative;
+}
+.faq__tab_data .single_faq .faq_title {
+    position: relative;
+    cursor: pointer;
+    padding: min(max(15px, 1.5625vw), 1.875rem) min(max(60px, 5.7292vw), 6.875rem) min(max(15px, 2.0833vw), 2.5rem) min(max(15px, 2.0833vw), 2.5rem);
+    background: linear-gradient(90deg, rgba(13, 176, 43, 0.25) 0%, rgba(40, 169, 226, 0.25) 100%);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.faq__tab_data .single_faq .faq_title::after {
+    content: "";
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    width: min(max(24px, 2.5vw), 3rem);
+    height: min(max(24px, 2.5vw), 3rem);
+    background-size: contain;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g opacity="0.25"><path fill-rule="evenodd" clip-rule="evenodd" d="M33 25.5H25.5V33C25.5 33.825 24.8295 34.5 24 34.5C23.1705 34.5 22.5 33.825 22.5 33V25.5H15C14.1705 25.5 13.5 24.825 13.5 24C13.5 23.175 14.1705 22.5 15 22.5H22.5V15C22.5 14.175 23.1705 13.5 24 13.5C24.8295 13.5 25.5 14.175 25.5 15V22.5H33C33.8295 22.5 34.5 23.175 34.5 24C34.5 24.825 33.8295 25.5 33 25.5ZM24 0C10.7445 0 0 10.74 0 24C0 37.26 10.7445 48 24 48C37.2555 48 48 37.26 48 24C48 10.74 37.2555 0 24 0Z" fill="%235B5B5B"/></g></svg>');
+}
+.faq__tab_data {
+    margin-top: 20px;
+}
+.faq__tab_data .faq_content__wrap {
+    padding: 0 min(max(20px, 5.7292vw), 6.875rem) 30px min(max(20px, 2.0833vw), 2.5rem);
+}
+
+.faq__tab_data .single_faq + .single_faq {
+    margin-top: -15px;
+    box-shadow: -4px 0px 25px 0px rgba(0, 0, 0, 0.10);
+}
+.faq__tab_data .single_faq.active {
+    background: var(--theme-white);
+    box-shadow: -4px 0px 25px 0px rgba(0, 0, 0, 0.10);
+    border: 1px solid rgba(13, 176, 43, 0.25);
+}
+.faq__tab_data .single_faq.active .faq_title {
+    background: var(--theme-white);
+    padding-bottom: 16px;
+}
+.faq__tab_data .single_faq.active .faq_title::after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M33 25.5H15C14.1705 25.5 13.5 24.825 13.5 24C13.5 23.175 14.1705 22.5 15 22.5H33C33.8295 22.5 34.5 23.175 34.5 24C34.5 24.825 33.8295 25.5 33 25.5ZM24 0C10.7445 0 0 10.74 0 24C0 37.26 10.7445 48 24 48C37.2555 48 48 37.26 48 24C48 10.74 37.2555 0 24 0Z" fill="url(%23paint0_linear_2634_1772)"/><defs><linearGradient id="paint0_linear_2634_1772" x1="48" y1="24" x2="0" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="%230DB02B"/><stop offset="1" stop-color="%2328A9E2"/></linearGradient></defs></svg>');
+}
+.faq_accord_wrap .single_faq:not(:first-child) .faq_content__wrap {
+    display: none;
+}
+.faq_section .faq_image {
+    margin-left: min(3.125vw, 3.75rem);
+    position: relative;
+    top: min(1.3021vw, 1.5625rem);
+    right: -7%;
+}
+
+@media only screen and (max-width: 1500px) {
+    .faq__tab_data .single_faq .faq_title::after {
+        top: 15px;
+    }
+}
+@media only screen and (max-width: 1439px) {
+    .faq__tab_data .single_faq .faq_title::after {
+        top: 10px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .faq_section .faq_image {
+        margin-left: 0;
+        top: 0;
+        right: 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .faq__tab_data .single_faq .faq_title::after {
+        top: 24px;
+    }
+    .faq__tab_data .single_faq .faq_title {
+        padding-bottom: 30px;
+    }
+}
+/* faq section end */
+
+/* faq form section start */
+.faq__form_section {
+    position: relative;
+    margin-top: min(max(40px, 8.3333vw), 10rem);
+    padding: min(max(50px, 10.4167vw), 12.5rem) 0 min(max(30px, 2.6042vw), 3.125rem);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    height: auto;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+}
+.faq__form_section .section_overlay {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 45.06%);
+}
+.faq__form_section .custom-container {
+    position: relative;
+    z-index: 1;
+}
+.faq__form_section .section_header .heading {
+    margin-top: min(8.8542vw, 10.625rem);
+    margin-bottom: 0.833em;
+}
+.faq__form {
+    margin-left: auto;
+    margin-right: auto;
+}
+.faq__form .row:last-child .col-12 {
+    text-align: center;
+}
+.faq__form .form-check {
+    padding-left: 2.5em;
+    margin-bottom: 0;
+}
+.faq__form .form-check-input {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: -2.5em;
+}
+.faq__form .form-check-label a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.faqtab_btn_wrap {
+    position: relative;
+}
+.faqtab__slider_btn {
+    justify-content: space-between;
+    position: absolute;
+    top: -68px;
+    width: 100%;
+    display: none;
+}
+.faqtab__slider_btn li a {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1500px) {
+    .faq__form .form-check-label a {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .faq__form {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .faq__form {
+        width: 80%;
+    }
+    .faq_section .faqtab__slider {
+        /* margin-left: 18px; */
+        /* margin-right: 18px; */
+        margin-bottom: 10px;
+    }
+    .faq_section .faqtab__slider::before,.faq_section .faqtab__slider::after {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 70px;
+        background: linear-gradient(0deg, #fff 0%, #fff 100%);
+    }
+    .faqtab_pagination {
+        text-align: center;
+    }
+    .faqtab_pagination .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+    .faqtab_pagination .swiper-pagination-bullet-active {
+        background-color: var(--theme-primary);
+    }
+}
+@media only screen and (max-width: 575px) {
+    .faq__form {
+        width: 100%;
+    }
+    .faq__form_section .section_overlay {
+        height: 112%;
+        top: -12%;
+    }
+    .faq_section .faq__tab,.faq_section .faq__tab.active {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+/* faq form section end */
